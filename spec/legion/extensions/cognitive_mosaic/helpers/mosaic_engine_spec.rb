@@ -61,7 +61,7 @@ RSpec.describe Legion::Extensions::CognitiveMosaic::Helpers::MosaicEngine do
 
   describe '#most_complete' do
     it 'returns mosaics by completeness' do
-      m1 = engine.create_mosaic(name: 'empty', pattern_category: :organic, capacity: 10)
+      engine.create_mosaic(name: 'empty', pattern_category: :organic, capacity: 10)
       m2 = engine.create_mosaic(name: 'full', pattern_category: :organic, capacity: 2)
       t1 = engine.create_tessera(material: :glass, domain: :x, content: 'a')
       t2 = engine.create_tessera(material: :glass, domain: :x, content: 'b')

@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Cognitive mosaic LEX — assembling fragments into coherent wholes'
   spec.description   = 'Models mosaic assembly: tesserae (individual cognitive fragments) placed into ' \
-                        'mosaics with pattern categories, grout strength for cohesion, coherence ' \
-                        'scoring, gap detection for missing pieces.'
+                       'mosaics with pattern categories, grout strength for cohesion, coherence ' \
+                       'scoring, gap detection for missing pieces.'
   spec.homepage      = 'https://github.com/LegionIO/lex-cognitive-mosaic'
 
   spec.required_ruby_version = '>= 3.4'

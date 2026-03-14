@@ -74,20 +74,20 @@ module Legion
 
           def to_h
             {
-              id:                @id,
-              name:              @name,
-              pattern_category:  @pattern_category,
-              tessera_ids:       @tessera_ids.dup,
-              size:              size,
-              capacity:          @capacity,
-              completeness:      completeness,
+              id:                 @id,
+              name:               @name,
+              pattern_category:   @pattern_category,
+              tessera_ids:        @tessera_ids.dup,
+              size:               size,
+              capacity:           @capacity,
+              completeness:       completeness,
               completeness_label: completeness_label,
-              grout_strength:    @grout_strength,
-              gap_count:         gap_count,
-              full:              full?,
-              empty:             empty?,
-              crumbling:         crumbling?,
-              created_at:        @created_at
+              grout_strength:     @grout_strength,
+              gap_count:          gap_count,
+              full:               full?,
+              empty:              empty?,
+              crumbling:          crumbling?,
+              created_at:         @created_at
             }
           end
 

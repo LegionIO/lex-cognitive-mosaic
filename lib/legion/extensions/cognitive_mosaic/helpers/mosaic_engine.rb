@@ -81,11 +81,11 @@ module Legion
 
           def mosaic_report
             {
-              total_tesserae:  @tesserae.size,
-              total_mosaics:   @mosaics.size,
-              loose_count:     loose_tesserae.size,
-              by_material:     tesserae_by_material,
-              crumbling_count: @mosaics.count { |_, m| m.crumbling? },
+              total_tesserae:   @tesserae.size,
+              total_mosaics:    @mosaics.size,
+              loose_count:      loose_tesserae.size,
+              by_material:      tesserae_by_material,
+              crumbling_count:  @mosaics.count { |_, m| m.crumbling? },
               avg_completeness: avg_completeness
             }
           end
